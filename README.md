@@ -10,7 +10,7 @@ Instead of dumping a massive, unreadable library all at once, I am progressively
 
 ### 1. Data Structures
 
-- [x] **Sparse Table** — *(Static RMQ / Range Queries in O(1))*
+- [x] [Sparse Table](DataStructures/SparseTable.cpp) — *(Static RMQ / Range Queries in O(1))*
 
 #### Policy-Based Data Structures (PBDS)
 > Black-box templates built on GNU's `__gnu_pbds` — ready to use directly.
@@ -23,7 +23,7 @@ Instead of dumping a massive, unreadable library all at once, I am progressively
 - [x] [PBDS Priority Queue](DataStructures/PBDS/PBDSPriorityQueue.cpp) — *(Mutable heap with modify/erase via handles)*
 
 ### 2. Graph Algorithms
-* [x] **Dense Dijkstra's Algorithm O(V^2)** — *(Highly optimized for dense graphs using an O(1) pop trick)*
+* [x] [Dense Dijkstra's Algorithm O(V^2)](Graphs/dense_dijkstra.cpp) — *(Highly optimized for dense graphs using an O(1) pop trick)*
 * [ ] Iterative Depth-First Search (DFS)
 * [ ] Standard Disjoint-Set Data Structure (DSU)
 
