@@ -14,8 +14,8 @@ Instead of dumping a massive, unreadable library all at once, I am progressively
 - [x] [FenwickTree](DataStructures/FenwickTree.cpp) — (Point Update, Prefix/Range Sum & k-th element search in O(log n))
 #### Disjoint set union (DSU)
 
-- [x] [DSU](DataStructures/DSU/DSU.cpp)
-- [X] [DSU with linked list](DataStructures/DSU/DSULinkedLists)
+- [x] [DSU](DataStructures/DSU/DSU.cpp) — (Union by Size + Path Compression, Component Size & Count in O(α(n)))
+- [X] [DSU with linked list](DataStructures/DSU/DSULinkedLists)  — (Enumerate Component(s) in O(size) while keeping DSU operations in O(α(n)))
       
 #### Policy-Based Data Structures (PBDS)
 > Black-box templates built on GNU's `__gnu_pbds` — ready to use directly.
@@ -28,7 +28,5 @@ Instead of dumping a massive, unreadable library all at once, I am progressively
 - [x] [PBDS Priority Queue](DataStructures/PBDS/PBDSPriorityQueue.cpp) — *(Mutable heap with modify/erase via handles)*
 
 ### 2. Graph Algorithms
-* [x] [Dense Dijkstra's Algorithm O(V^2)](Graphs/dense_dijkstra.cpp) — *(Highly optimized for dense graphs using an O(1) pop trick)*
-* [ ] Iterative Depth-First Search (DFS)
-* [ ] Standard Disjoint-Set Data Structure (DSU)
+- [x] [Dense Dijkstra's Algorithm O(V^2)](Graphs/dense_dijkstra.cpp) — *(Highly optimized for dense graphs using an O(1) pop trick)*
 
