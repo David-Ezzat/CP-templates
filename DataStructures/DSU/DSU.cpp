@@ -57,7 +57,7 @@ namespace DSU {
 using namespace DSU;
 
 int main() {
-    // Quick test to verify manual typing on paper
+    // Quick test to verify manual typing
     init(5);
     merge(1, 2);
     merge(2, 3);
