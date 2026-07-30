@@ -12,7 +12,11 @@ Instead of dumping a massive, unreadable library all at once, I am progressively
 
 - [x] [Sparse Table](DataStructures/SparseTable.cpp) — *(Static RMQ / Range Queries in O(1))*
 - [x] [FenwickTree](DataStructures/FenwickTree.cpp) — (Point Update, Prefix/Range Sum & k-th element search in O(log n))
+#### Disjoint set union (DSU)
 
+- [x] [DSU](DataStructures/DSU/DSU.cpp)
+- [X] [DSU with linked list](DataStructures/DSU/DSULinkedLists)
+      
 #### Policy-Based Data Structures (PBDS)
 > Black-box templates built on GNU's `__gnu_pbds` — ready to use directly.
 
