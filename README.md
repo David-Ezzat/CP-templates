@@ -28,5 +28,5 @@ Instead of dumping a massive, unreadable library all at once, I am progressively
 - [x] [PBDS Priority Queue](DataStructures/PBDS/PBDSPriorityQueue.cpp) — *(Mutable heap with modify/erase via handles)*
 
 ### 2. Graph Algorithms
-- [x] [Dense Dijkstra's Algorithm O(V^2)](Graphs/dense_dijkstra.cpp) — *(Highly optimized for dense graphs using an O(1) pop trick)*
+- [x] [Dense Dijkstra's Algorithm O(V^2)](Graphs/DenseDijkstra.cpp) — *(Highly optimized for dense graphs using an O(1) pop trick)*
 
