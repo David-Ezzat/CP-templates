@@ -7,6 +7,9 @@ Instead of dumping a massive, unreadable library all at once, I am progressively
 ---
 
 ## 📂 Current Collection
+### 1. Alogrithms
+- [x] [Kadane's Algorithm](Algorithms/Kadane.cpp) — (Maximum subarray sum in O(n))
+- [x] [Longest Increasing Subsequence (LIS)](Algorithms/LIS.cpp) - ((O(n log n) LIS algorithm))
 
 ### 1. Data Structures
 
@@ -29,4 +32,4 @@ Instead of dumping a massive, unreadable library all at once, I am progressively
 
 ### 2. Graph Algorithms
 - [x] [Dense Dijkstra's Algorithm O(V^2)](Graphs/DenseDijkstra.cpp) — *(Highly optimized for dense graphs using an O(1) pop trick)*
-
+- [x] [Forward Star](Graphs/ForwardStar.cpp) — *(Memory-efficient static adjacency list for fast graph traversal)*
