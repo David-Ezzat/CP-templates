@@ -39,3 +39,14 @@ Instead of dumping a massive, unreadable library all at once, I am progressively
 - [x] [DSU](DataStructures/DSU/DSU.cpp) — *(Union by Size + Path Compression, Component Size & Count in O(α(n)))*
 - [X] [DSU with linked list](DataStructures/DSU/DSULinkedLists)  — *(Enumerate Component(s) in O(size) while keeping DSU operations in O(α(n)))*
 
+### 4. Math
+#### Number Theory
+
+- [x] [GCD & LCM](Math\NumberTheory\GCD_LCM.cpp) — *(Standard Euclidean algorithm and LCM safely handling zeros, O(log(min(a, b))))*
+- [x] [Divisors & Multiples](Math\NumberTheory\GetDivisors_GetMultiplies.cpp) — *(Get all divisors in O(sqrt(n)) & multiples in O(n/x))*
+- [x] [Primality Test](Math\NumberTheory\IsPrime.cpp) — *(Check if a number is prime safely, O(sqrt(n)))*
+- [x] [Modular Arithmetic](Math\NumberTheory\ModularArithmetic.cpp) — *(Fast Power, Mod Inverse, Add, Sub, Mul, Div under modulo)*
+- [x] [Distinct Prime Factors](Math\NumberTheory\NumberOfDistinctPrimeFactors.cpp) — *(Count distinct prime factors up to N, O(N log(log N)))*
+- [x] [Prime Factorization](Math\NumberTheory\PrimeFacorization.cpp) — *(Find prime factors and their powers in O(sqrt(n)))*
+- [x] [Sieve of Eratosthenes](Math\NumberTheory\Sieve.cpp) — *(Precompute primes up to N, O(N log(log N)))*
+- [x] [Smallest Prime Factor (SPF)](Math\NumberTheory\SPF.cpp) — *(O(log X) prime factorization per query after O(N log(log N)) precomputation)*
